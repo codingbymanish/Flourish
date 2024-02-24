@@ -1,0 +1,1112 @@
+
+
+
+
+
+@media screen and (max-width:430px) {
+    .carouselpara{
+        display: none;
+    }
+}
+@media screen and (max-width:430px) {
+    .carouselh1{
+        font-size: 20px;
+    }
+}
+
+.colorcardh6{
+    color: #ffffff;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+
+.colorcardh4 {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.colorcardpara{
+    color: #ffffff;
+
+    font-size: 15px 'Loto'
+}
+
+
+
+
+@media screen and (max-width:446px) {
+    .center{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+/* nav */
+
+.navli:hover{
+    border-bottom: solid 5px #e96300;
+    cursor: pointer;
+    /* transition: 1s;*/
+}
+
+.navli a{
+    color: white;
+    transition: 0.5s;
+
+}
+.navli:hover .nava {
+    color: #e96300;
+    transition: 0.5s;
+}
+
+.navli:focus{
+    border-bottom: solid 5px #e96300;
+    cursor: pointer;
+    color: #e96300;
+
+}
+
+.dropli{
+    color: white;
+}
+.dropli:hover{
+    color: #e96300;
+}
+.navli{
+    border-bottom: 5px solid black;
+}
+
+.navli:focus .nav-link{
+    color: #e96300;
+}
+.navli{
+    margin-left: 30px;
+}
+
+.navli:hover .nav-link{
+    color: #e96300;
+
+}
+
+ #drop {
+    position: relative;
+}
+
+#drop:hover #subdrop {
+    display: block;
+}
+
+#subdrop {
+    position: absolute;
+   
+    /* width: 200px; */
+}
+
+#drop2 {
+    position: relative;
+}
+
+#drop2:hover #subdrop2 {
+    display: block;
+}
+
+#subdrop2 {
+    position: absolute;
+}
+@media screen and (max-width:784px) {
+ 
+    #subdrop {
+        position: static;
+    }
+    #subdrop2 {
+        position: static;
+    }
+    
+  
+}
+
+@media screen and (min-width:1037px) {
+    .navli{
+        margin-left:80px;
+        /* background: black; */
+    }
+      
+}
+
+
+
+@media screen and (max-width:768px) {
+    .navbg{
+        background: rgb(233,99,0);
+    }
+    /* .firstnavbg{
+        background: white;
+    } */
+}
+
+.firstnavbg{
+    background: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:768px){
+    .firstnavbg{
+        background: white;
+    }
+}
+@media screen and (max-width:768px) {
+    #navbarSupportedContent{
+        background: rgb(0, 0, 0);
+        margin-top: 20px;
+
+    }
+
+    
+.navli:hover{
+    border-bottom: solid 2px #ffffff;
+    cursor: pointer;
+    /* transition: 1s;*/
+}
+   
+    .navli{ 
+        border: 2px solid white;
+        background: rgb(1, 1, 1);
+    border-bottom: solid 2px rgb(255, 255, 255);
+    margin-left: 0px;
+    }
+    .navli:focus{
+        /* border-bottom: solid 2px #ffffff; */
+        cursor: pointer;
+        color: #fcfcfc;
+    
+    }
+    .navli:hover a {
+        color: #ffffff;
+        /* transition: 0.5s; */
+    }
+}
+
+/* carsolue */
+.toppara{
+    color: #262626;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.toph6{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.carousel-control-prev{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    margin-top:20%;
+}
+
+.carousel-control-next{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    margin-top:20%;
+}
+
+@media screen and (max-width:768px) {
+    .phone{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .call{
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .call{
+        display: block;
+    }
+}
+/* .phone */
+/* ==========================================padding */
+@media screen and (min-width:1024px) {
+    .padding{
+        padding: 50px;
+    }
+}
+
+/* =========================================================services*/
+.servicesbg{
+    background-image: url(image/section_bg_1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.servicespara{
+    font-size: 15px 'Loto';
+}
+
+.servicesimg{
+    background: url(image/service-we-do-1.jpg) center;
+    background-size: cover;
+    width: 25em;
+    height: 15em;
+    color: #fff;
+    position: relative;
+
+}
+
+.servicesimg2{
+    background: url(image/service-we-do-2.jpg) center;
+    object-fit: cover;
+    background-size: cover;
+    width: 25em;
+    height: 15em;
+    color: #fff;
+    position: relative;
+    
+}
+.servicesimg .overlay{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background:#ff6a00b8;;
+opacity: 0;
+transition: 0.5s;
+}
+
+
+
+.servicesimg2 .overlay2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#ff6a00b8;;
+    opacity: 0;
+    transition: 0.5s;
+    }
+
+.servicescard:hover .overlay{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.servicescard2:hover .overlay2{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.servicescard , .servicescard2 ,.servicescard3 ,.servicescard4 ,.servicescard5 , .servicescard6{
+    background: transparent;
+}
+
+/* 3 */
+.servicesimg3{
+    background: url(image/service-we-do-3.jpg)  center; 
+    background-size: cover;
+    width: 25em;
+    height: 15em;
+    color: #fff;
+    position: relative;
+
+}
+
+.servicescard3:hover .overlay3{
+    opacity: 1;
+    transition: 0.5s;
+}
+.servicesimg3 .overlay3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#ff6a00b8;;
+    opacity: 0;
+    transition: 0.5s;
+    }
+
+
+/* 4 */
+
+.servicesimg4{
+    background: url(image/service-we-do-4.jpg) center;
+    background-size: cover;
+    width: 25em;
+    height: 15em;
+    color: #fff;
+    position: relative;
+
+}
+.servicescard4:hover .overlay4{
+    opacity: 1;
+    transition: 0.5s;
+}
+.servicesimg4 .overlay4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#ff6a00b8;;
+    opacity: 0;
+    transition: 0.5s;
+    }
+/* 5 */
+    .servicesimg5{
+        background: url(image/service-we-do-5.jpg) center;
+        background-size: cover;
+        width: 25em;
+        height: 15em;
+        color: #fff;
+        position: relative;
+    
+    }
+    
+    .servicescard5:hover .overlay5{
+        opacity: 1;
+        transition: 0.5s;
+    }
+    .servicesimg5 .overlay5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:#ff6a00b8;;
+        opacity: 0;
+        transition: 0.5s;
+        }
+
+
+
+
+        .servicesimg6{
+            background: url(image/service-we-do-6.jpg) center;
+            background-size: cover;
+            width: 25em;
+            height: 15em;
+            color: #fff;
+            position: relative;
+        
+        }
+        
+        .servicescard6:hover .overlay6{
+            opacity: 1;
+            transition: 0.5s;
+        }
+        .servicesimg6 .overlay6{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:#ff6a00b8;;
+            opacity: 0;
+            transition: 0.5s;
+            }
+
+
+
+
+  @media screen and (min-width:1024px) {
+    .servicesimg , .servicesimg2 , .servicesimg3 , .servicesimg4 , .servicesimg5 ,.servicesimg6{
+        width: 100%;
+    }
+  }  
+  
+  @media screen and (min-width:768px) {
+    .servicesimg , .servicesimg2 , .servicesimg3 , .servicesimg4 , .servicesimg5 ,.servicesimg6{
+        width: 100%;
+    }
+  } 
+
+  @media screen and (min-width:425px) {
+    .servicesimg , .servicesimg2 , .servicesimg3 , .servicesimg4 , .servicesimg5 ,.servicesimg6{
+        width: 100%;
+    }
+  } 
+
+  @media screen and (min-width:375px) {
+    .servicesimg , .servicesimg2 , .servicesimg3 , .servicesimg4 , .servicesimg5 ,.servicesimg6{
+        width: 100%;
+    }
+  } 
+
+  @media screen and (min-width:320px) {
+    .servicesimg , .servicesimg2 , .servicesimg3 , .servicesimg4 , .servicesimg5 ,.servicesimg6{
+        width: 100%;
+    }
+  } 
+
+/* ==================================================================feature
+  */
+
+.featureh3{
+    font-family: 'Titillium Web', sans-serif;
+    /* font-size: 20px; */
+    font-size: 18px;
+    color: #272727;
+    font-weight: 400;
+}
+
+.featurepara{
+    /* margin: 0; */
+    font-size: 13px;
+    color: #8d8d8d;
+    line-height: 2;
+}
+.featureimg{
+transition: all 0.3s;
+
+}
+.featureimg:hover{
+transform: scale(1.1);
+transition: all 0.3s;
+}
+
+.progressh3{
+    line-height: 1;
+    font-weight: 400;
+    font-size: 22px;
+}   
+.progresspara{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.progresscard{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    background:rgb(43,43,43);
+    clip-path: polygon(75% 0%, 91% 50%, 75% 100%, 0% 100%, 14% 51%, 0% 0%);
+
+}
+
+.mainprogresscard{
+    margin-top: 30px;
+    height: 300px;
+    width:250px;
+    background:rgb(43,43,43);
+}
+
+.progresscard2{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    background:rgb(233,99,0);
+    clip-path: polygon(85% 0%, 91% 50%, 85% 100%, 0% 100%, 14% 51%, 0% 0%);
+
+}
+
+.mainprogresscard2{
+    margin-top: 30px;
+    height: 300px;
+    width:250px;
+    background:rgb(233,99,0);
+}
+.progresscard3{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    background:rgb(255,139,53);
+    clip-path: polygon(75% 0%, 91% 50%, 75% 100%, 0% 100%, 14% 51%, 0% 0%);
+
+}
+
+.mainprogresscard3{
+    margin-top: 30px;
+    height: 300px;
+    width:280px;
+    background:rgb(255,139,53);
+}
+
+@media screen and (max-width:1440px) {
+    .progresscard3 , .progresscard2 ,.progresscard{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+    } 
+}
+
+@media screen and (min-width:1024px) {
+     .progresscard2 {
+        margin-left: 30px;
+    } 
+
+    .progresscard3{
+        margin-left: 80px;
+
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    .colprogress1{
+    margin-left: 100px;
+    }
+}
+
+
+
+@media screen and (min-width:1024px) {
+    .colprogress1{
+    margin-left: 50px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+  
+
+}
+
+
+
+   
+
+
+/* ==================================================================iner  */
+.interh3{
+    font-size: 18px;
+    /* color: #272727; */
+    color: rgb(233,99,0);
+}
+.interpara{
+    color: #d4d1d1;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.inerbg{
+    background-image: url(image/services\ img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inerbg2{
+    background-image: url(image/services\ img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inerbg3{
+    background-image: url(image/services\ img3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:500px) {
+    .side{
+        padding: 50px;
+    }
+}
+
+
+.inerbut{
+    background: rgb(233,99,0);
+    color: white;
+    }
+    
+    .inerbut:hover{
+        background: rgb(255, 171, 110);
+        }
+    
+/* =========================================================welcome*/
+
+
+
+.welcomebut{
+background: rgb(233,99,0);
+}
+
+.welcomebut:hover{
+    background: rgba(234, 121, 41, 0.663);
+    }
+
+.welcomepara{
+    line-height: 26px;
+    font-family: Lato;
+    font-size: 15px;
+    color: #717171;
+}
+
+/* =========================================================project*/
+.projectbg{
+    background-image: url(image/probg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.procard{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+
+/* =========================================================sofa */
+
+.sofah3{
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+}
+
+.sofah5{
+    color: rgb(233,99,0);
+
+}
+.sofapara{
+    color: #a6a6a6;
+}
+.sofabut{
+    border-color: #e96300;
+}
+
+.sofaa{
+    color: #262626;
+}
+.sofaa:hover{
+
+    color:white;
+}
+.sofabut:hover{
+    border-color: #e96300;
+    background-color: #fea05c;
+}
+/* =========================================================card */
+.maincard:hover{
+    background: rgb(233,99,0);
+    transition: 0.5s all;
+    color: white;
+}
+
+.maincard{
+    transition: 0.5s all;
+
+}
+
+.cardpara{
+    color: #ababab;
+    font-size: 16px;
+}
+
+.cardh2{
+    font-weight: 700;
+    font-family: 'Lato';
+    font-size: 40px;
+    color: #353535;
+}
+
+.clientsbg{
+    background-image: url(image/box-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#owlfirst .owl-nav button span {
+    font-size: 80px;
+}
+
+#owlfirst .owl-nav {
+    text-align: center;
+}
+/* =========================================================footermain */
+
+.footerbg{
+    background-image: url(image/footerbg.jpg);
+
+}
+
+.footerh5{
+    font-size: 21px;
+}
+.footerpara{
+    padding: 60px 0;
+    font-size: 14px;
+    color: #c1c0c0;
+    line-height: 25px;
+}
+
+.footpara{
+    color: #ababab;
+    font-size: 16px;
+    
+}  
+.footpara:hover{
+    color: rgb(255, 176, 120);
+}
+.footera{
+    color: #ababab;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.footera:hover{
+    color: rgb(233,99,0);
+}
+
+
+
+/* =========================================================footer */
+@media screen and  (max-width: 768px)  {
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* justify-self: center; */
+    }
+}
+
+@media screen and  (max-width: 768px)  {
+    .icon2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* justify-self: center; */
+    }
+}
+
+
+
+.social{
+    color: white;
+}
+.social:hover{
+    color: rgb(233,99,0);
+}
+
+
+/*======================== team================== */
+
+.team{
+    background: url(image/downbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.teamh2{
+    border-bottom: 2px solid white;
+    width: 55px;
+}
+
+/*============================ team */
+.teamcard{
+    background: url(image/member01.jpg);
+    width: 100%;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+
+
+.overlay{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+flex-direction: column;
+top: 0;
+left: 0;
+opacity: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.656);
+transition: 0.5s;
+
+}
+.teamcard:hover .overlay {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.teamcard2{
+    background: url(image/member02.jpg);
+    width: 100%;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.overlay2{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+flex-direction: column;
+top: 0;
+left: 0;
+opacity: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.656);
+transition: 0.5s;
+
+}
+.teamcard2:hover .overlay2 {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.teamcard3{
+    background: url(image/member04.jpg);
+    width: 100%;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.overlay3{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+flex-direction: column;
+top: 0;
+left: 0;
+opacity: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.656);
+transition: 0.5s;
+
+}
+.teamcard3:hover .overlay3 {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.teamcard4{
+    background: url(image/member03.jpg);
+    width: 100%;
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.overlay4{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+flex-direction: column;
+top: 0;
+left: 0;
+opacity: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.656);
+transition: 0.5s;
+
+}
+.teamcard4:hover .overlay4 {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* smallfooter */
+
+.smallfooterh6{
+    font-size: 21px
+}
+
+.smallfooterpara{
+    font-size: 17px 'Loto';
+}
+
+/* ==================================================================about */
+.aboutsection{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.aboutpara{
+    font-size: 15px 'Lato';
+    color: #717171;
+}
+.abouth1{
+    font-size: 30px 'Lato';
+    color: #272727;
+}
+
+
+.cardcolor{
+    background: url(image/featured-projects-1.jpg);
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.cardcolor .overlaycolor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+background: rgba(0, 0, 0, 0.644);
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+opacity: 0;
+transition: 0.3s;
+}
+
+.cardcolor:hover .overlaycolor{
+    opacity: 1;
+}
+
+
+
+
+.cardcolor2{
+    background: url(image/featured-projects-2.jpg);
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.cardcolor2 .overlaycolor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+background: rgba(0, 0, 0, 0.644);
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+opacity: 0;
+transition: 0.3s;
+}
+
+.cardcolor2:hover .overlaycolor2{
+    opacity: 1;
+}
+
+.cardcolor3{
+    background: url(image/featured-projects-3.jpg);
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.cardcolor3 .overlaycolor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+background: rgba(0, 0, 0, 0.644);
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+opacity: 0;
+transition: 0.3s;
+}
+
+.cardcolor3:hover .overlaycolor3{
+    opacity: 1;
+}
+
+
+
+
+.cardcolor4{
+    background: url(image/featured-projects-4.jpg);
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.cardcolor4 .overlaycolor4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+background: rgba(0, 0, 0, 0.644);
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+opacity: 0;
+transition: 0.3s;
+}
+
+.cardcolor4:hover .overlaycolor4{
+    opacity: 1;
+}
